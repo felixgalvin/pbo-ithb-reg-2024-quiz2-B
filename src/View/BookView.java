@@ -11,7 +11,7 @@ import java.util.List;
 public class BookView {
     private JFrame frame;
 
-    public BookView(Users user) {
+    public BookView() {
         frame = new JFrame("Book");
         frame.setLayout(new BorderLayout());
         frame.setSize(1000, 600);
